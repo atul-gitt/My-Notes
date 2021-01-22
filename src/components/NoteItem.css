@@ -1,0 +1,55 @@
+.note-container {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px dashed black;
+  align-items: center;
+}
+
+.note-item {
+  height: 100%;
+  width: 40%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.icon-container {
+  display: inline-block;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  background-color: #159957;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.title {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 1000;
+  position: relative;
+  left: 0px;
+}
+
+.desc {
+  font-size: 15px;
+}
+
+.action-container {
+  display: flex;
+  position: relative;
+  bottom: 0px;
+  cursor: pointer;
+}
+
+.action-container p {
+  margin: 5px;
+}

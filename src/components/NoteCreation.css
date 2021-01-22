@@ -1,0 +1,33 @@
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+.form-container {
+  margin: 0 auto;
+  width: 500px;
+  background: linear-gradient(to right, #159957, #155799);
+}
+
+/* .form {
+  text-align: center;
+} */
+
+.form-input {
+  box-sizing: border-box;
+  outline: none;
+  background-image: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 400px;
+  margin-left: auto;
+  min-height: 50px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid white;
+  color: white;
+}
+
+.form-btn {
+  cursor: pointer;
+}

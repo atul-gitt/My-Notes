@@ -1,0 +1,6 @@
+.notes-container {
+  width: 500px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+}
